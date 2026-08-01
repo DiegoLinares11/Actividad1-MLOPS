@@ -142,6 +142,24 @@ Las variables que más pesaron fueron los porcentajes de atajadas y de tiros a p
 
 ---
 
+## Evidencia de ejecución en distintas computadoras
+
+La captura está al final del notebook (`notebooks/pipeline_demo.ipynb`, sección *Captura de
+evidencia*). El mismo paquete se instaló y ejecutó en equipos con sistema operativo y versión de
+Python diferentes, dando exactamente el mismo resultado:
+
+| | Equipo 1 | Equipo 2 |
+|---|---|---|
+| Hostname | `Dlinares` | `WH-Chris` |
+| Sistema operativo | Windows 11 | Linux (cachyos) |
+| Python | 3.14.2 | 3.14.4 |
+| **Accuracy** | **0.724** | **0.724** |
+
+Que el resultado coincida hasta el tercer decimal, en sistemas operativos distintos, confirma que el
+pipeline empaquetado es reproducible y no depende del entorno de quien lo ejecuta.
+
+---
+
 ## Estructura del proyecto
 
 ```
